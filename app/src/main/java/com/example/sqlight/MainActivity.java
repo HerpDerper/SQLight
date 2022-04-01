@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
                 while (res.moveToNext()){
                     builder.append("Имя: ").append(res.getString(0)).append("\n");
                     builder.append("Тел. номер: ").append(res.getString(1)).append("\n");
-                    builder.append("Дата рождения: ").append(res.getString(1)).append("\n\n");
+                    builder.append("Дата рождения: ").append(res.getString(2)).append("\n\n");
                 }
 
                 AlertDialog.Builder builder1 =new AlertDialog.Builder(MainActivity.this);
